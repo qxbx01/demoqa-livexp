@@ -1,0 +1,24 @@
+{
+  "name": "demoqa-autotests",
+  "version": "1.0.0",
+  "description": "Playwright-based end-to-end tests for demoqa website",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "install": "npx playwright install"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-playwright": "^0.10.0",
+    "prettier": "^3.1.0"
+  },
+  "keywords": ["playwright", "e2e", "testing", "demoqa"],
+  "author": "A.Stepanov"
+}
